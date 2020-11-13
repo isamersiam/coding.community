@@ -1,0 +1,7 @@
+{
+  "name": "Coding.Community",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
