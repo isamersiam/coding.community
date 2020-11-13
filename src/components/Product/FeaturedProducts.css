@@ -1,0 +1,32 @@
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Carousel {
+  display: flex !important;
+  justify-content: center !important;
+  justify-self: center !important;
+  justify-items: center !important;
+  margin: 20px !important;
+}
+
+.MuiPaper-root {
+  max-width: 20% !important;
+}
+
+.caret {
+  background-color: #1c86ee;
+  border-radius: 50%;
+  height: 30px;
+  min-width: 30px;
+  color: #fff !important;
+  outline: none;
+  padding: 5px !important;
+}
+
+polygon {
+  stroke: #fff !important;
+  fill: #fff !important;
+}

@@ -1,0 +1,21 @@
+.upvote-button_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-title {
+  border: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-style: none !important;
+  margin: 0 !important;
+  max-height: fit-content !important;
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+.enter-icon {
+  margin-left: 20px;
+}

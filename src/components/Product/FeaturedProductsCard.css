@@ -1,0 +1,62 @@
+.Product-Card {
+  max-width: 200px !important;
+  background: transparent;
+}
+
+.typography {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px !important;
+  font-size: 1.2rem !important;
+  color: #fff !important;
+}
+
+.typography2 {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .typography {
+    font-size: 1rem !important;
+    color: #fff !important;
+  }
+  .card-action {
+    display: none !important;
+  }
+  .MuiCardContent-root {
+    padding: 15px 7px !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .typography2 {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .typography {
+    font-size: 0.8rem !important;
+    color: #fff !important;
+  }
+  .typography2 {
+    font-size: 0.5rem !important;
+  }
+  .card-action {
+    display: none !important;
+  }
+  .MuiCardContent-root {
+    padding: 15px 7px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .typography {
+    font-size: 0.6rem !important;
+    color: #fff !important;
+  }
+}
